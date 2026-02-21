@@ -64,6 +64,7 @@ cd cravex
 
 3.Get dependencies:
 flutter pub get
+
 4.Configure Firebase and Stripe keys:
 
 Replace firebase_options.dart and Stripe publishableKey with your keys.
@@ -71,7 +72,7 @@ Replace firebase_options.dart and Stripe publishableKey with your keys.
 5.Run the app:
 flutter run
 
-Folder Structure
+Folder Structure:
 
 lib/screens - App screens (Home, Food Details, Login, Signup)
 
@@ -81,7 +82,7 @@ lib/widgets - Reusable widgets and constants
 
 lib/services - Firebase & Stripe services
 
-Future Improvements
+Future Improvements:
 
 Add user authentication & profile
 
