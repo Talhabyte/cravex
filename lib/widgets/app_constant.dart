@@ -1,2 +1,3 @@
-String publishedkey =
-    "pk_test_51Sp9cSCvc3dRjdWG6ystPm0ZA8K595EooHBlOSQt4uKKTimAOv22Got6bz9RfRVPlu4PIT2Rge4vT9AogRLEs8m100W1UFlgMG";
+// Stripe publishable key, passed in at build time:
+// flutter run --dart-define=STRIPE_PUBLISHABLE_KEY=pk_test_...
+const String publishedkey = String.fromEnvironment('STRIPE_PUBLISHABLE_KEY');

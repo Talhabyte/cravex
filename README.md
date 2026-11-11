@@ -1,9 +1,3 @@
-
----
-
-## **2️⃣ Cravex README.md**
-
-
 # Cravex 🍕🍦
 
 **Flutter Food Delivery App**
@@ -67,7 +61,9 @@ flutter pub get
 
 4.Configure Firebase and Stripe keys:
 
-Replace firebase_options.dart and Stripe publishableKey with your keys.
+- Add your own Firebase config: put `google-services.json` in `android/app/` (it is not included in this repo).
+- Pass your Stripe publishable key when running:
+  `flutter run --dart-define=STRIPE_PUBLISHABLE_KEY=pk_test_...`
 
 5.Run the app:
 flutter run
